@@ -24,8 +24,8 @@ You can run the script with the following command:
 ```
 docker run \
     --rm \
-    -e URL='http://your-jellyfin-base-url.example.com'
-    -e API_KEY='Your Jellyfin Admin API Key'
+    -e URL='http://your-jellyfin-base-url.example.com' \
+    -e API_KEY='Your Jellyfin Admin API Key' \
     zeryther/jellyfin-extract-subtitles-docker
 ```
 
